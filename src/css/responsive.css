@@ -1,0 +1,50 @@
+@media (max-width: 700px) {
+  .flip-clock {
+    font-size: 36px;
+  }
+  .digit {
+    width: 100px;
+    height: 80px;
+  }
+
+  .mark {
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+}
+
+@media (max-width: 510px) {
+  .flip-clock {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 450px) {
+  .flip-clock {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 415px) {
+  .flip-clock {
+    gap: 15px;
+  }
+  .digit {
+    width: 80px;
+    height: 80px;
+  }
+  .mark {
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+}
+
+@media (max-width: 376px) {
+  .flip-clock {
+    gap: 10px;
+  }
+  .digit {
+    width: 70px;
+    height: 70px;
+  }
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <link rel="shortcut icon" href="./src/images/favicon-32x32.png" type="image/x-icon">
+    <title>Flip clock</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <h1>WE'RE LAUCHING SOON</h1>
+
+        <div class="flip-clock">
+          <div
+            class="digit digit-day"
+            data-digit-before="00"
+            data-digit-after="00"
+          >
+            <!-- ::before -->
+            <div class="card card-day">
+              <div class="card-face card-face-front card-face-front-day">
+                00
+              </div>
+              <div class="card-face card-face-back card-back-day">00</div>
+            </div>
+            <!-- ::after -->
+            <div class="mark">Days</div>
+            <div class="circle"></div>
+          </div>
+
+          <div
+            class="digit digit-hour"
+            data-digit-before="00"
+            data-digit-after="00"
+          >
+            <!-- ::before -->
+            <div class="card card-hour">
+              <div
+                class="card-face card-face-front card-face-front-hour"
+              >
+                00
+              </div>
+              <div class="card-face card-face-back card-back-hour">00</div>
+            </div>
+            <!-- ::after -->
+            <div class="mark">hours</div>
+            <div class="circle"></div>
+          </div>
+
+          <div
+            class="digit digit-minute"
+            data-digit-before="00"
+            data-digit-after="00"
+          >
+            <!-- ::before -->
+            <div class="card card-minute">
+              <div class="card-face card-face-front card-face-front-minute">
+                00
+              </div>
+              <div class="card-face card-face-back card-back-minute">00</div>
+            </div>
+            <!-- ::after -->
+            <div class="mark">minutes</div>
+            <div class="circle"></div>
+          </div>
+
+          <div
+            class="digit digit-seconds"
+            data-digit-before="00"
+            data-digit-after="00"
+          >
+            <!-- ::before -->
+            <div class="card card-seconds">
+              <div  class="card-face card-face-front card-face-front-seconds">
+                00
+              </div>
+              <div class="card-face card-face-back card-back-seconds">00</div>
+            </div>
+            <!-- ::after -->
+            <div class="mark">seconds</div>
+            <div class="circle"></div>
+          </div>
+        </div>
+
+        <div class="social">
+          <a href="http://"
+            ><img src="./src/images/icon-facebook.svg" alt="facebook"
+          /></a>
+          <a href="http://"
+            ><img src="./src/images/icon-pinterest.svg" alt="pintrest"
+          /></a>
+          <a href="http://"
+            ><img src="./src/images/icon-instagram.svg" alt="instagram"
+          /></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io/profile/Sefy93" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Romario Douglas Brilhante</a>.
+    </div>
+    <script src="./src/javascript/calc.js"></script>
+    <script src="./src/javascript/index.js"></script>
+  </body>
+</html>
